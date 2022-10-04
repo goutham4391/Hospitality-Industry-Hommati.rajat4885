@@ -1,0 +1,247 @@
+@font-face{font-family:'Seravek-Bold';src:url(../fonts/Seravek-Bold.ttf);}
+@font-face{font-family:'Seravek-Light';src:url(../fonts/Seravek-Light.ttf);}
+@font-face{font-family:'Seravek-Medium';src:url(../fonts/Seravek-Medium.ttf);}
+@font-face{font-family:'Seravek';src:url(../fonts/Seravek.ttf);}
+@font-face{font-family:'Seravek-MediumItalic';src:url(../fonts/Seravek-MediumItalic.ttf);}
+
+
+.main{
+    width: 816px;
+    height: 1056px;
+    max-height: 1056px;
+    max-width: 816px;
+    position:fixed;
+}
+.main #agentinfo{
+    font-family: 'Seravek';
+}
+
+.main #second{
+    font-family: 'Seravek-Medium';
+}
+.inner-container {
+    padding: 30px 0;
+    text-align: center;
+}
+.container {
+  width: 1170px;
+}
+.col-lg-1, .col-lg-10, .col-lg-11, .col-lg-12, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-md-1, .col-md-10, .col-md-11, .col-md-12, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-sm-1, .col-sm-10, .col-sm-11, .col-sm-12, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-xs-1, .col-xs-10, .col-xs-11, .col-xs-12, .col-xs-2, .col-xs-3, .col-xs-4, .col-xs-5, .col-xs-6, .col-xs-7, .col-xs-8, .col-xs-9 {
+    position: relative;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+.col-md-3 {
+    width: 25%;
+}
+.col-xs-12 {
+    width: 100%;
+}
+  .upper-header {
+  padding: 15px 0px;
+}
+.logo {
+    float: left;
+    display: inline-block;
+    width: 20%;
+}
+.logo img {
+    height: auto;
+    max-width: 100%;
+    width: 190px;
+}
+img {
+    vertical-align: middle;
+    border: 0;
+}
+/*.pdftitle{
+    width: 80%;
+    text-align: center;
+}*/
+.sign-in-section {
+    text-align: right;
+}
+a {
+    outline: 0;
+    border: none;
+    text-decoration: none !important;
+    outline: 0 !important;
+    color: #337ab7;
+    text-decoration: none;
+    background-color: transparent;
+}
+.down-header {
+    background-color: hsl(32, 93%, 56%) !important;
+    color: hsl(0, 0%, 100%) !important;
+}
+
+.sign-in-section {
+    text-align: right;
+}
+.sign-in-section, .sign-up, .sign-up a, .sign-up i, .sign-in, .sign-in a {
+    display: inline-block;
+    vertical-align: middle;
+}
+.pull-right {
+    float: right;
+}
+.pull-right {
+    float: right !important;
+}
+.col-md-4 {
+    width: 33.33333333%;
+}
+.menu {
+    text-align: center;
+}
+.orange {
+    background-color: hsl(32, 93%, 56%) !important;
+    color: hsl(0, 0%, 100%) !important;
+}
+.col-md-12 {
+    width: 100%;
+}
+.col-md-1, .col-md-10, .col-md-11, .col-md-12, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9 {
+    float: left;
+}
+.col-sm-12 {
+    width: 100%;
+}
+.blue {
+    background-color: #093b5d;
+    text-align: center;
+    color: #FFF;
+}
+.col-md-12 {
+    width: 100%;
+}
+.col-md-1, .col-md-10, .col-md-11, .col-md-12, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9 {
+    float: left;
+}
+.seach-results {
+    background-color: #093b5d;
+    text-align: center;
+    color: #FFF;
+}
+.table thead tr th {
+    font-family: 'Seravek-MediumItalic,serif';
+    font-weight: bold;
+    font-size: 25px;
+    color: #093b5d;
+    text-decoration: underline;
+    text-decoration-color: #093b5d;
+    text-transform: uppercase;
+}
+.table thead {
+    border: none;
+}
+.footerpart {
+	height: 60px;background-color: #093b5d
+}
+.footerdiv{
+	padding-top: 16px;text-align: center;margin-bottom:0px;
+}
+.footerdivcontent{
+	font-family: 'Seravek-MediumItalic,serif';font-weight: bold;font-style: italic;font-size: 13px;color:#fff;text-align: center;
+}
+.table thead tr th {
+    font-family: 'Seravek-MediumItalic,serif';
+    font-weight: bold;
+    font-size: 10px;
+    color: #093b5d;
+    text-decoration: underline;
+    text-decoration-color: #093b5d;
+    text-transform: uppercase;
+}
+.table tbody tr td {
+    border: 1px solid black;
+    font-family: 'Seravek-MediumItalic,serif';
+    font-weight: bold;
+    font-size: 10px;
+   /* color: #093b5d;*/
+    text-decoration-color: #093b5d;
+    text-align: center;
+    height: 30px;
+}
+.table tbody tr .abc {
+    word-wrap: break-word;
+    max-width: 60px;
+    height: 100px;
+}
+
+/*--------PriceList-----*/
+
+.pricelist thead tr th {
+    font-family: 'Seravek-MediumItalic,serif';
+   /* font-weight: bold;*/
+    color: #000;
+    text-decoration-color: #000;
+    text-transform: uppercase;
+     font-size: 14px;
+      line-height:18px; 
+}
+
+.pricelist tbody tr td {
+    font-family: 'Seravek-MediumItalic,serif';
+    font-size: 14px;
+    color: #000;
+    text-decoration-color: #000;
+    text-align: center;
+}
+
+.pricelist thead tr .undline {
+    text-decoration: underline;
+}
+
+/*round robin franchise*/
+.table-rrf thead tr th{
+    font-size: 16px;
+}
+
+.table-rrf tbody tr td{
+    font-size: 14px;
+}
+
+/*saved search pdf*/
+body ,table{
+                font-family: 'Seravek-Medium';
+            }
+            thead th {
+                border: none!important;
+                color: hsl(204, 82%, 20%);
+                font-family: "seravek-Light";
+                font-size: 16px;
+                text-align: center;
+            }
+            table td {
+                border-color: hsl(0, 0%, 0%)!important;
+                font-family: "seravek";
+                font-size: 14px;
+            }
+
+            /*user pdf*/
+/*.upper-header .logo img{
+height: 10px!important;
+}*/
+#sample_1 tbody tr td,#sample_1 thead tr th {
+     height: 10px!important;
+      font-size: 14px;
+      line-height:18px; 
+}
+
+.pricelist tbody tr td{
+    height: 10px!important;
+      font-size: 14px;
+      line-height:18px; 
+      color: #000;
+}
+.pricelist tbody tr th{
+      font-size: 16px;
+      line-height:18px; 
+      color: #000;
+}
+
+#main{
+    font-family: "Seravek-Medium";
+}

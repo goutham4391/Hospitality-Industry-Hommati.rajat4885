@@ -1,0 +1,1 @@
+$(document).ready((function(){$(".fa-heart-o").on("click",(function(){$(this).addClass(".fa-heart"),$(this).removeClass(".fa-heart-o")})),$(".fa-heart").on("click",(function(){$(this).addClass(".fa-heart-o"),$(this).removeClass(".fa-heart")}))}));
